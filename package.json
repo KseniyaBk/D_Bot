@@ -1,0 +1,39 @@
+{
+  "name": "Designer_bot",
+  "version": "0.0.1",
+  "description": "Designer from Kyrgyzstan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-prod": "node index.js --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skriv/D_Bot.git"
+  },
+  "keywords": [
+    "Telegram",
+    "Bot"
+  ],
+  "author": "Aleksandr Krivov (@Skriv)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skriv/D_Bot/issues"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/skriv/D_Bot/blob/master/README.md",
+  "dependencies": {
+    "fast-csv": "^2.1.0",
+    "node-telegram-bot-api": "0.23.3"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.0.2",
+    "natural": "^0.4.0",
+    "sinon": "1.17.6",
+    "sinon-chai": "2.8.0"
+  }
+}
