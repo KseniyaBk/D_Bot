@@ -1,7 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api');
-//const botMessagesLogger = require('./lib/bot-messages-logger');
-//const commandInterface = require('./lib/command-interface');
-
+const botMessagesLogger = require('./lib/bot-messages-logger');
 
 //NOTE: You should create CONFIG file
 const config = require('./CONFIG.json');
@@ -15,5 +13,5 @@ console.log('Authorizing and initializing Bot...');
 bot.getMe()
   .then(me => {
     console.log('Bot has been successfully authorized. Name is', me.first_name);
-    //botMessagesLogger(bot);
+    botMessagesLogger(bot);
   });
