@@ -2,4 +2,4 @@
 
 Bot for https://t.me/designkg
 
-Group of designers from Kyrgyzstan🇰🇬 in Telegram.
+Designers from Kyrgyzstan🇰🇬 in Telegram.
